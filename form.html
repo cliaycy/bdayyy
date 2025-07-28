@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Kehadiran</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #FFEFF6;
+      text-align: center;
+      color: #77445A;
+    }
+
+    .form-container {
+      background-image: url('hiye.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      max-width: 600px;
+      margin: 100px auto;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+      background-color: rgba(255, 255, 255, 0.85); 
+      backdrop-filter: brightness(1.1);
+    }
+
+    h1 {
+      color: #D63384;
+      font-size: 28px;
+    }
+
+    input, textarea {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #FF69B4;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e0569a;
+    }
+
+    a {
+      display: block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #77445A;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Formulir Kehadiran</h1>
+
+    <form action="https://formsubmit.co/aliciasyftr@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://cliaycy.github.io/bdayyy/terimakasih.html">
+
+
+      <input type="text" name="nama" placeholder="Nama" required>
+      <input type="number" name="jumlah_tamu" placeholder="Jumlah Tamu" required>
+      <textarea name="ucapan" rows="4" placeholder="Ucapan untuk Ciaww"></textarea>
+      <br>
+      <button type="submit">Kirim</button>
+    </form>
+
+    <a href="bday.html">⬅ Kembali ke Halaman Undangan</a>
+  </div>
+</body>
+</html>
